@@ -1,0 +1,65 @@
+.elemento-media {
+    height: 100vh;
+}
+.display_registro{
+    display: none ;
+}
+.margin-top-card{
+    margin: 25vh 20px 0px 20px;
+}
+.margin-top-card2{
+    margin: 20vh 20px 0px 20px;
+}
+.buton-style{
+
+    border-radius: 50px;
+}
+.activada{
+    /* border: none !important;
+    border-bottom: 1px #0ba6c6 solid !important;
+    background: #0ba7c662;
+    border-radius: 2px;
+     */
+   
+    color: white !important;
+    
+    
+}
+.card-style{
+    border: none;
+}
+.input-text-custom{
+    border-radius: 0 !important;
+    background-color: white !important;
+    border: none !important;
+    border-bottom: 2px solid silver !important;
+}
+.input-text-custom:focus{
+    box-shadow: none !important;
+    border-bottom: 2px #0dcaf0 solid !important;
+}
+.padding-card{
+    padding: 0px 200px 0px 200px;
+}
+.icon-color{
+    color: silver ;
+}
+@media (max-width: 575px) {
+    .elemento-media {
+        height: 0vh;
+    }
+    
+
+    .hidden {
+        display: none;
+    }
+
+    .ver{
+        display: block;
+    }
+}
+@media (max-width: 1200px){
+    .padding-card{
+        padding: 0px 0px 0px 0px;
+    }
+}
